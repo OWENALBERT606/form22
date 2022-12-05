@@ -1,0 +1,131 @@
+/*BROWSER RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: blueviolet;
+    
+}
+.majorform{
+    background-color: blueviolet;
+    width: 60vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-shadow: 10px 53px 122px 1px rgba(0,0,0,0.85);
+-webkit-box-shadow: 10px 53px 122px 1px rgba(0,0,0,0.85);
+-moz-box-shadow: 10px 53px 122px 1px rgba(0,0,0,0.85);
+}
+.left{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-content: center;
+    flex-direction: column;
+    /* background-color: rgb(141, 83, 199); */
+    /* background-blend-mode: multiply; */
+    background-size: cover;
+    background-image:linear-gradient(to bottom right,rgba(0, 0, 255, 0.7),rgba(227, 128, 128, 0.755)),url(./icons/cheerful-attractive-young-woman-enjoying-distant-work-sitting-desk-using-portable-computer-drinking-coffee-pretty-female-blogger-working-from-home-uploading-video-her-channel-smiling.jpg)
+
+}
+.paragraph{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+.small{
+    font-size: 20px;
+}
+.loginbutton{
+    margin-top: 20px;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    width: 90%;
+    border-radius: 10px;
+    color: white;
+
+}
+.loginbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+button{
+    border: none;
+    font-weight:bold;
+    font-size: 20px;
+    transition: 0.5sec;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+.title{
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+svg{
+    width: 30px;
+    border-bottom: 20px;
+    color: blueviolet;
+    margin-bottom: -25px;
+
+}
+input{
+    padding: 10px 60px;
+    background-color:transparent;
+    border-bottom: 1px solid black;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+
+
+}
+input:focus{
+    outline: none;
+}
+.formcontroller{
+    border-bottom: 40px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+.form{
+    padding: 20px;
+}
+.password{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+button:hover{
+    transform: scale(.9);
+    background-color: #a855f7;
+}
